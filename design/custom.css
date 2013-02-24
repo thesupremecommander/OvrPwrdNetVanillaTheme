@@ -141,12 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-#Panel {
-  background-color: #ffffff;
-  border-radius: 6px;
-}
-
-.GuestBox {
+.GuestBox  p, .GuestBox h4 {
   display: none;
 }
 
