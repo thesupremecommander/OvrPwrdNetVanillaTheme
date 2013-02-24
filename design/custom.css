@@ -38,6 +38,9 @@
 body { 
   background-color: #3f2319;
   color: #ffffff;
+  font-family:"tf2secondary", sans-serif;
+  font-size: 17px;
+  line-height:18px;
 }
 
 a {
@@ -51,12 +54,36 @@ a:hover {
 
 #Head a {
   color: #ffffff;
+  font-weight: normal;
 }
 
 #Head a:hover {
   color: rgb(235, 235, 235);
   text-decoration: none;
+  font-weight: normal;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "tf2regular", sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.MItem .RSS {
+  display: none;
+}
+
+.Sprite {
+  display: none;
+}
+
+.CategoryList .Title {
+  font-family: "tf2regular", sans-serif;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* Default (mostly)*/
 
 .Row {
 width:100%;
@@ -74,14 +101,6 @@ margin-bottom:10px;
 background-color: #3f2319;
 color: #ffffff;
 padding: 4px 0;
-}
-
-#Head a {
-color:#1E79A7;
-}
-
-#Head a:hover {
-color:#ff0084;
 }
 
 .CategoryList .Item.Read , .CategoryList .Item.Read:hover {
