@@ -119,6 +119,28 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
+.Discussions .Title {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.ConnectLabel {
+  font-weight: normal;
+  color: #ffffff
+}
+
+.ConnectLabel:hover {
+  font-weight: normal;
+  color: rgb(235, 235, 235);
+}
+
+.Discussions .Read, .Discussions .Read:hover {
+  background-color: #3f2319;
+  -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter:alpha(opacity=100);
+  opacity: 1;
+}
+
 /* Default (mostly)*/
 
 .Row {
