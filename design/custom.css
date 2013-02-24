@@ -55,6 +55,7 @@ a:hover {
 #Head a {
   color: #ffffff;
   font-weight: normal;
+  font-size: 14px;
 }
 
 #Head a:hover {
@@ -69,18 +70,30 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-.MItem .RSS {
+.Meta.RSS {
   display: none;
 }
 
 .Sprite {
-  display: none;
+  display: none !important;
 }
 
 .CategoryList .Title {
   font-family: "tf2regular", sans-serif;
   font-size: 18px;
   margin-bottom: 6px;
+  font-weight: normal;
+}
+
+.SiteMenu a {
+  font-size: 14px;
+  padding: 6px;
+  margin-left: -3px;
+}
+
+.SiteMenu {
+  display: block;
+  margin-bottom: -5px;
 }
 
 /* Default (mostly)*/
@@ -90,7 +103,7 @@ width:100%;
 }
 
 .BreadcrumbsWrapper {
-font-size:11px;
+font-size:14px !important;
 padding:3px;
 border-top:1px solid rgb(238, 238, 238);
 border-bottom:1px solid rgb(238, 238, 238);
