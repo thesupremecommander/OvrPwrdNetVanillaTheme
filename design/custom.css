@@ -33,23 +33,47 @@
     font-style: normal;
 }
 
+/* Actual Stuff */
+
+body { 
+  background-color: #3f2319;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+}
+
+#Head a {
+  color: #ffffff;
+}
+
+#Head a:hover {
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+}
+
 .Row {
 width:100%;
 }
 
 .BreadcrumbsWrapper {
 font-size:11px;
-padding:6px;
-background:#fafafa;
-border:1px dashed #eee;
-border-width:1px 0;
+padding:3px;
+border-top:1px solid rgb(238, 238, 238);
+border-bottom:1px solid rgb(238, 238, 238);
 margin-bottom:10px;
 }
 
 #Head {
-background:transparent;
-color:#000;
-padding:4px 0;
+background-color: #3f2319;
+color: #ffffff;
+padding: 4px 0;
 }
 
 #Head a {
@@ -58,6 +82,13 @@ color:#1E79A7;
 
 #Head a:hover {
 color:#ff0084;
+}
+
+.CategoryList .Item.Read , .CategoryList .Item.Read:hover {
+background-color: #3f2319;
+-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+filter:alpha(opacity=100);
+opacity: 1;
 }
 
 .SiteTitle {
