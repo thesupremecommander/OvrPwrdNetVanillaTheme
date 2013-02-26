@@ -164,14 +164,29 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(51, 51, 51);
   font-family: "tf2build", sans-serif;
   font-weight: normal;
+  font-size: 20px;
   display: block;
-  padding-left: 20px
+  padding-left: 20px;
   padding-top: 3px;
   padding-bottom:3px;
   background-color: #ffffff
 }
 
 #Panel .FilterMenu li a:hover, .PanelInfo li a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #73432d, #663c28);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73432d), to(#663c28));
+  background-image: -webkit-linear-gradient(top, #73432d, #663c28);
+  background-image: -o-linear-gradient(top, #73432d, #663c28);
+  background-image: linear-gradient(to bottom, #73432d, #663c28);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73432d', endColorstr='#ff663c28', GradientType=0);
+  outline: 0;
+}
+
+#Panel .FilterMenu .Active, .PanelInfo .Active {
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: #0081c2;
