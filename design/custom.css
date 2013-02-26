@@ -351,6 +351,10 @@ div[title="Font"], div[title="Font Size"], div[title="Font Color"], div[title="T
   border-radius: 6px;
 }
 
+.Hijack.Bookmark {
+  display: none;
+}
+
 a.EditComment:hover {
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #73432d, #663c28);
