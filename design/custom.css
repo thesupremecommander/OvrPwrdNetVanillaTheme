@@ -181,7 +181,36 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 9px;
 }
 
-#Panel .BoxNewDiscussion .NewDiscussion {
+#Panel .ProfilePhotoLarge {
+  margin-left: 33px;
+}
+
+#Panel .PhotoWrapLarge {
+  border-radius: 6px;
+}
+
+#Panel a.ChangePiture {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "tf2build", sans-serif;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #73432d, #663c28);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73432d), to(#663c28));
+  background-image: -webkit-linear-gradient(top, #73432d, #663c28);
+  background-image: -o-linear-gradient(top, #73432d, #663c28);
+  background-image: linear-gradient(to bottom, #73432d, #663c28);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73432d', endColorstr='#ff663c28', GradientType=0);
+  outline: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#Panel a.ChangePicture:hover {
+  color: rgb(255, 255, 255);
+}
+
+#Panel .BigButton {
   margin: 0px 6px;
 }
 
@@ -262,6 +291,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Panel .CategoryFollowToggleBox {
+  display: none;
+}
+
+#Panel .MeMenu {
   display: none;
 }
 
