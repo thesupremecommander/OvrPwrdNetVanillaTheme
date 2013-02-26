@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: 0;
 }
 
-#Panel .FilterMenu .Active, .PanelInfo .Active {
+#Panel .FilterMenu .Active li a, .PanelInfo .Active li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: #0081c2;
@@ -210,7 +210,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Panel .Depth2 {
-  padding-left: 20px
+  padding-left: 0px;
+}
+
+#Panel h4 {
+  color: rgb(51, 51, 51);
+  font-family: "tf2build", sans-serif;
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 0px;
+}
+
+#Panel input.InputBox {
+  width: 226px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+#Panel #Form_Go .Button {
+  position: relative;
+  left: -6px;
+  top: -3px;
+}
+
+#Panel .CategoryFollowToggleBox {
+  display: none;
 }
 
 .Count {
@@ -250,10 +279,6 @@ display:none;
 
 #Body .ContentColumn {
 margin:0 300px 0 0;
-}
-
-#Panel input.InputBox {
-width:192px;
 }
 
 #Body .Wrapper #Content {
