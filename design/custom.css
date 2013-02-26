@@ -160,6 +160,31 @@ h1, h2, h3, h4, h5, h6 {
   width: 270px;
 }
 
+#Panel a.Username {
+  font-weight: normal;
+  font-size: 15px;
+  position: absolute;
+  top: 83px;
+  color: rgb(51, 51, 51);
+}
+
+#Panel a.Username:hover {
+  font-weight: normal;
+  font-size: 15px;
+  position: absolute;
+  top: 83px;
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+}
+
+#Panel .ProfilePhotoMedium {
+  margin-left: 9px;
+}
+
+#Panel .BoxNewDiscussion .NewDiscussion {
+  margin: 0px 6px;
+}
+
 #Panel .FilterMenu li a, .PanelInfo li a {
   color: rgb(51, 51, 51);
   font-family: "tf2build", sans-serif;
@@ -169,7 +194,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 20px;
   padding-top: 3px;
   padding-bottom:3px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  line-height: 20px;
 }
 
 #Panel .FilterMenu li a:hover, .PanelInfo li a:hover{
@@ -186,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: 0;
 }
 
-#Panel .FilterMenu .Active li a, .PanelInfo .Active li a {
+#Panel .FilterMenu li.Active a, .PanelInfo li.Active a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: #0081c2;
@@ -198,6 +224,11 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73432d', endColorstr='#ff663c28', GradientType=0);
   outline: 0;
+}
+
+#Panel .FilterMenu .Active, .PanelInfo .Active {
+  background: none;
+  font-weight: bold;
 }
 
 #Panel .FilterMenu li, .PanelInfo li {
@@ -214,15 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Panel h4 {
-  color: rgb(51, 51, 51);
-  font-family: "tf2build", sans-serif;
-  display: block;
-  font-size: 20px;
-  font-weight: normal;
-  padding-left: 20px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin: 0px;
+  display: none;
 }
 
 #Panel input.InputBox {
