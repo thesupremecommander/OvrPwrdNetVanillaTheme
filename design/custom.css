@@ -298,8 +298,65 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+#Panel .PanelInfo {
+  display: none;
+}
+
+#Panel .PanelInfo.PanelCategories {
+  display: inline;
+}
+
 .Count {
   display: none;
+}
+
+.HasNew {
+  background-color: rgb(87, 51, 34);
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0px 3px;
+  font-weight: normal;
+}
+
+.ItemDiscussion .Options {
+  display: none;
+}
+
+.Message span {
+  font-family: "tf2secondary" !important;
+  font-size: 16px;
+}
+
+.Message {
+  font-size: 16px;
+}
+
+div[title="Font"], div[title="Font Size"], div[title="Font Color"], div[title="Text Highlight Color"], div[title="Remove Formatting"], div[title="Outdent"], div[title="Indent"], div[title="Show Source"] {
+  display: none;
+}
+
+.FormWrapper {
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+.OptionsTitle {
+  background-color: rgb(255, 255, 255);
+  width: 16px;
+  height: 18px;
+  border-radius: 6px;
+}
+
+a.EditComment:hover {
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #73432d, #663c28);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73432d), to(#663c28));
+  background-image: -webkit-linear-gradient(top, #73432d, #663c28);
+  background-image: -o-linear-gradient(top, #73432d, #663c28);
+  background-image: linear-gradient(to bottom, #73432d, #663c28);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73432d', endColorstr='#ff663c28', GradientType=0);
+  outline: 0;
 }
 
 /* Default (mostly)*/
