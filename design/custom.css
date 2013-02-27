@@ -142,6 +142,42 @@ h1, h2, h3, h4, h5, h6 {
 .SignInLink {
   display: block;
   margin: 0px 6px;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#Panel .JsConnect-Connect img.ProfilePhotoSmall.UserPhoto, #Panel .JsConnect-Connect span.Username {
+  display: none;
+}
+
+#Panel .JsConnect-Connect .ConnectLabel {
+  text-align: center;
+  padding: 8px 10px;
+  display: block;
+  border: 1px solid rgb(0, 34, 204);
+  border-radius: 2px;
+  margin: 0px 6px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  background-image: linear-gradient(bottom,#0055cc 0%,#0088cc 100%);
+  background-image: -o-linear-gradient(bottom,#0055cc 0%,#0088cc 100%);
+  background-image: -moz-linear-gradient(bottom,#0055cc 0%,#0088cc 100%);
+  background-image: -webkit-linear-gradient(bottom,#0055cc 0%,#0088cc 100%);
+  background-image: -ms-linear-gradient(bottom,#0055cc 0%,#0088cc 100%);
+  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#0055cc),color-stop(1,#0088cc)  );
+  background-repeat: repeat-x;
+  outline: 0;
+}
+
+#Panel .JsConnect-Connect .ConnectLabel:focus, #Panel .JsConnect-Connect .ConnectLabel:active {
+  background: #0055cc;
+  box-shadow: none;
+}
+
+#Panel .JsConnect-Connect .ConnectLabel:focus, #Panel .JsConnect-Connect .ConnectLabel:active , #Panel .JsConnect-Connect .ConnectLabel:hover {
+  color: #ffffff !important;
 }
 
 #Panel {
