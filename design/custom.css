@@ -324,7 +324,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .Message span, .Message div {
   font-family: "tf2secondary" !important;
-  font-size: 16px;
+  font-size: 16px !important;
+}
+
+.ItemDiscussion .Meta, .DataList .Meta {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 
 .Message {
@@ -342,6 +347,23 @@ div[title="Font"], div[title="Font Size"], div[title="Font Color"], div[title="T
 .FormWrapper {
   background: rgb(255, 255, 255);
   border-radius: 6px;
+}
+
+form.Activity {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+dl.About, dl.About dt, dl.About dd {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.Activities .Title {
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .OptionsTitle {
