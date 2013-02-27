@@ -124,16 +124,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
 }
 
-.ConnectLabel {
-  font-weight: normal;
-  color: #ffffff
-}
-
-.ConnectLabel:hover {
-  font-weight: normal;
-  color: rgb(235, 235, 235);
-}
-
 .Discussions .Read, .Discussions .Read:hover {
   background-color: #3f2319;
   -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -151,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .SignInLink {
   display: block;
+  margin: 0px 6px;
 }
 
 #Panel {
