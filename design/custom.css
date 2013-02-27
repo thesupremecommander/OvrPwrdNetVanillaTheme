@@ -356,6 +356,24 @@ form.Activity {
   padding: 10px;
 }
 
+.Activity .cleditorMain iframe {
+  width: 911px !important;
+  margin-bottom: 6px;
+}
+
+.cleditorMain iframe {
+  border-radius: 6px;
+}
+
+a.CommentLink, #Form_Body.TextBox, #Form_Comment.TextBox {
+  border-radius: 6px;
+}
+
+.Activities .DataList li {
+  border-radius: 6px;
+  background: rgba(0,0,0,0.06)
+}
+
 dl.About, dl.About dt, dl.About dd {
   color: #ffffff;
   font-size: 14px;
@@ -363,7 +381,7 @@ dl.About, dl.About dt, dl.About dd {
 
 .Activities .Title {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .OptionsTitle {
