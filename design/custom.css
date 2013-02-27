@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-.Message span, .Message div {
+.Message span, .Message div, div.Message, span.Message {
   font-family: "tf2secondary" !important;
   font-size: 16px !important;
 }
@@ -405,6 +405,41 @@ a.EditComment:hover {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73432d', endColorstr='#ff663c28', GradientType=0);
   outline: 0;
+}
+
+body.Profile.EditMode #Content form {
+  background-color: rgba(0,0,0,0.06);
+  border-radius: 6px;
+}
+
+input.SmallInput, input.InputBox {
+  border-radius:6px;
+}
+
+input.SmallInput:focus, input.InputBox:focus, textarea:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+.NavButton {
+  box-shadow: none;
+}
+
+.NavButton:hover {
+  color: rgb(71, 71, 71);
+}
+
+.SearchForm .SiteSearch .Button {
+  top: 10px;
+  right: -25px;
+}
+
+#Panel .SiteSearch #Form_Go.Button {
+  right: 12px;
+  top: 6px;
+}
+
+#Panel .BigButton.NewConversation.Primary {
+  margin-bottom: 10px;
 }
 
 /* Default (mostly)*/
