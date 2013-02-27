@@ -413,7 +413,7 @@ body.Profile.EditMode #Content form {
 }
 
 input.InputBox {
-  border-radius:6px;
+  border-radius:6px !important;
 }
 
 input.SmallInput:focus, input.InputBox:focus, textarea:focus {
