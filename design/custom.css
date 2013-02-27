@@ -412,7 +412,7 @@ body.Profile.EditMode #Content form {
   border-radius: 6px;
 }
 
-input.SmallInput, input.InputBox {
+input.InputBox {
   border-radius:6px;
 }
 
