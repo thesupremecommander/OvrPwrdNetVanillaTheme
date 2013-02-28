@@ -497,11 +497,6 @@ input.SmallInput:focus, input.InputBox:focus, textarea:focus {
   color: rgb(71, 71, 71);
 }
 
-.SearchForm .SiteSearch .Button {
-  top: 10px;
-  right: -25px;
-}
-
 #Panel .SiteSearch #Form_Go.Button {
   right: 12px;
   top: 6px;
