@@ -41,6 +41,7 @@ body {
   font-family:"tf2secondary", sans-serif;
   font-size: 17px;
   line-height:18px;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -512,6 +513,10 @@ input.SmallInput:focus, input.InputBox:focus, textarea:focus {
 
 .cleditorPopup.cleditorList {
   color: rgb(51, 51, 51);
+}
+
+.SearchForm > form > div > div > #Form_Search {
+  padding: 6px 0px;
 }
 
 /* Default (mostly)*/
