@@ -536,6 +536,14 @@ div.Embed ul.DataList.MessageList.Comments li.Item.ItemComment {
   background-color: rgb(63, 35, 25) !important;
 }
 
+uk.SiteMenu li a.HasCount span.Alert {
+  background-color: rgb(87, 51, 34);
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0px 3px;
+  font-weight: normal;
+}
+
 /* Default (mostly)*/
 
 .Row {
