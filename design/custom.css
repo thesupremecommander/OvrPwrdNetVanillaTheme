@@ -516,6 +516,21 @@ input.SmallInput:focus, input.InputBox:focus, textarea:focus {
   padding: 6px 0px;
 }
 
+.EmbedCommentForm .EmotifyDropdown {
+  display: none;
+}
+
+div.MessageForm.CommentForm.EmbedCommentForm {
+  border-top: none;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+div.MessageForm.CommentForm.EmbedCommentForm div.Author {
+  display: none;
+}
+
 /* Default (mostly)*/
 
 .Row {
