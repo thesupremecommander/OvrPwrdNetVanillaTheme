@@ -525,10 +525,15 @@ div.MessageForm.CommentForm.EmbedCommentForm {
   background-color: #fff;
   border-radius: 6px;
   padding: 10px;
+  margin-bottom: 6px;
 }
 
 div.MessageForm.CommentForm.EmbedCommentForm div.Author {
   display: none;
+}
+
+div.Embed ul.DataList.MessageList.Comments li.Item.ItemComment {
+  background-color: rgb(63, 35, 25) !important;
 }
 
 /* Default (mostly)*/
