@@ -190,22 +190,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Panel a.Username {
+  color: rgb(51, 51, 51);
   font-weight: normal;
   font-size: 15px;
   position: absolute;
-  top: 83px;
-  color: rgb(51, 51, 51);
-  left: 1025px;
+  top: 91px;
+  left: 1030px;
 }
 
 #Panel a.Username:hover {
   font-weight: normal;
   font-size: 15px;
   position: absolute;
-  top: 83px;
+  top: 91px;
+  left: 1030px;
   color: rgb(71, 71, 71);
   text-decoration: none;
-  left: 1025px;
 }
 
 #Panel .ProfilePhotoMedium {
